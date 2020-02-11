@@ -66,7 +66,7 @@ subprojects {
 
 test.dependsOn([':core:test', ':prov:test', ':tls:test', ':pkix:test', ':mail:test', 'pg:test'])
 
-cobertura {
+/*cobertura {
    coverageDirs = [
         "${rootProject.projectDir}/core/build/classes/main",
         "${rootProject.projectDir}/mail/build/classes/main",
@@ -94,5 +94,5 @@ cobertura {
    auxiliaryClasspath += files("${rootProject.projectDir}/core/build/classes/main")
    coverageFormats = ['html', 'xml']
    coverageReportDir = new File("${rootProject.projectDir}/build/reports/cobertura")
-}
+}*/
 
